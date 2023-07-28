@@ -1,9 +1,9 @@
 [project]
 name = "piet"
-version = "0.1.0"
-description = "A tool to store images in DNA"
+version = "0.1.1"
+description = "Store image to DNA as Piet Mondrian's style."
 authors = [
-    { name = "Tang Ziya", email = "tcztzy@gmail.Com" }
+    { name = "Ziya Tang", email = "tang@stu.njau.edu.cn" }
 ]
 dependencies = [
     "largestinteriorrectangle>=0.2.0",
@@ -15,6 +15,22 @@ dependencies = [
 ]
 readme = "README.md"
 requires-python = ">= 3.10"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
 
 [build-system]
 requires = ["hatchling"]
